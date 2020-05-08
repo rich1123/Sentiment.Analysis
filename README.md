@@ -8,4 +8,4 @@ Data obtained from each source will be stored into a SQL database.
 We will use Apache Spark to wrangle the data. We will then push the cleaned data into a new SQL database.
 
 We will connect Jupyter to SQL to load the data. We will then use matplotlib to plot said data.
-![](images/Sentiment_Analysis_Social_Media_Stock.png)
+![](images/Sentiment_Analysis_Social_Media_Stock.png) 
