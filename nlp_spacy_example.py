@@ -4,6 +4,7 @@ Imported text relevant to our project in line 14 as a means for testing"""
 
 #Chapter 2 getting Started
 import spacy
+
 from spacy.lang.en import English
 from spacy.lang.de import German
 
@@ -55,6 +56,8 @@ for token in new_doc:
         if next_token.text == "%":
             print("Percentage found:", token.text)
 
+
+            
             # Chapter 7 Loading Models
 
         nlp3 = spacy.load("en_core_web_sm")
@@ -62,3 +65,4 @@ for token in new_doc:
         doc3 = nlp3(f)
 
         print(doc3.text, doc3.pos_)
+
