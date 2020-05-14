@@ -1,130 +1,130 @@
 {
     "results": [
         {
-            "timePeriod": "202004010000",
-            "count": 66855
-        },
-        {
-            "timePeriod": "202004020000",
-            "count": 54903
-        },
-        {
-            "timePeriod": "202004030000",
-            "count": 26205
-        },
-        {
-            "timePeriod": "202004040000",
-            "count": 26183
-        },
-        {
-            "timePeriod": "202004050000",
-            "count": 22342
-        },
-        {
-            "timePeriod": "202004060000",
-            "count": 37344
-        },
-        {
-            "timePeriod": "202004070000",
-            "count": 21977
-        },
-        {
-            "timePeriod": "202004080000",
-            "count": 29682
-        },
-        {
-            "timePeriod": "202004090000",
-            "count": 25981
-        },
-        {
-            "timePeriod": "202004100000",
-            "count": 22434
-        },
-        {
-            "timePeriod": "202004110000",
-            "count": 16041
-        },
-        {
-            "timePeriod": "202004120000",
-            "count": 15635
-        },
-        {
             "timePeriod": "202004130000",
-            "count": 16858
+            "count": 16859
         },
         {
             "timePeriod": "202004140000",
-            "count": 21588
+            "count": 21557
         },
         {
             "timePeriod": "202004150000",
-            "count": 21977
+            "count": 21948
         },
         {
             "timePeriod": "202004160000",
-            "count": 43566
+            "count": 43523
         },
         {
             "timePeriod": "202004170000",
-            "count": 32389
+            "count": 32358
         },
         {
             "timePeriod": "202004180000",
-            "count": 25416
+            "count": 25387
         },
         {
             "timePeriod": "202004190000",
-            "count": 22405
+            "count": 22380
         },
         {
             "timePeriod": "202004200000",
-            "count": 23888
+            "count": 23871
         },
         {
             "timePeriod": "202004210000",
-            "count": 24012
+            "count": 24016
         },
         {
             "timePeriod": "202004220000",
-            "count": 46991
+            "count": 46983
         },
         {
             "timePeriod": "202004230000",
-            "count": 25488
+            "count": 25475
         },
         {
             "timePeriod": "202004240000",
-            "count": 28878
+            "count": 28862
         },
         {
             "timePeriod": "202004250000",
-            "count": 26619
+            "count": 26564
         },
         {
             "timePeriod": "202004260000",
-            "count": 24663
+            "count": 24635
         },
         {
             "timePeriod": "202004270000",
-            "count": 20726
+            "count": 20719
         },
         {
             "timePeriod": "202004280000",
-            "count": 23307
+            "count": 23290
         },
         {
             "timePeriod": "202004290000",
-            "count": 43415
+            "count": 43388
         },
         {
             "timePeriod": "202004300000",
-            "count": 60503
+            "count": 60455
+        },
+        {
+            "timePeriod": "202005010000",
+            "count": 72756
+        },
+        {
+            "timePeriod": "202005020000",
+            "count": 52183
+        },
+        {
+            "timePeriod": "202005030000",
+            "count": 29745
+        },
+        {
+            "timePeriod": "202005040000",
+            "count": 24454
+        },
+        {
+            "timePeriod": "202005050000",
+            "count": 36317
+        },
+        {
+            "timePeriod": "202005060000",
+            "count": 34303
+        },
+        {
+            "timePeriod": "202005070000",
+            "count": 30868
+        },
+        {
+            "timePeriod": "202005080000",
+            "count": 26406
+        },
+        {
+            "timePeriod": "202005090000",
+            "count": 69447
+        },
+        {
+            "timePeriod": "202005100000",
+            "count": 114676
+        },
+        {
+            "timePeriod": "202005110000",
+            "count": 142840
+        },
+        {
+            "timePeriod": "202005120000",
+            "count": 192922
         }
     ],
-    "totalCount": 898271,
+    "totalCount": 1359187,
     "requestParameters": {
         "bucket": "day",
-        "fromDate": "202004010000",
-        "toDate": "202005010000"
+        "fromDate": "202004130000",
+        "toDate": "202005130000"
     }
 }
