@@ -4,7 +4,7 @@ Imported text relevant to our project in line 14 as a means for testing"""
 
 #Chapter 2 getting Started
 import spacy
-# import en_core_web_sm
+
 from spacy.lang.en import English
 from spacy.lang.de import German
 
@@ -12,7 +12,7 @@ nlp = English()
 nlp2 = German()
 
 #text to process opened from path, set to 'file' variable
-file = open('headlines/headlines2.csv', 'r')
+file = open('NewsAPI/headlines2.csv', 'r')
 
 f = str(file.readlines()[1:])
 new_doc = nlp(f)
@@ -56,10 +56,13 @@ for token in new_doc:
         if next_token.text == "%":
             print("Percentage found:", token.text)
 
-#Chapter 7 Loading Models
 
-nlp3 = spacy.load("en_core_web_sm")
+            
+            # Chapter 7 Loading Models
 
-doc3 = nlp3(f)
+        nlp3 = spacy.load("en_core_web_sm")
 
-print(doc3.text, doc3.pos_)
+        doc3 = nlp3(f)
+
+        print(doc3.text, doc3.pos_)
+
