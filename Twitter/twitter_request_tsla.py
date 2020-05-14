@@ -3,11 +3,12 @@ import base64
 import json
 import os
 import csv
+from datetime import datetime, date
 
 
 # Load keys
-client_key = 'XXXX'
-client_secret = 'XXXX'
+client_key = 'Enter Key Here'
+client_secret = 'Enter Key Here'
 
 key_secret = '{}:{}'.format(client_key, client_secret).encode('ascii')
 b64_encoded_key = base64.b64encode(key_secret)
@@ -38,8 +39,8 @@ search_headers = {
 
 search_params = {
     'query': 'Tesla',
-    'fromDate': '202004010000',
-    'toDate': '202005010000',
+    'fromDate': '202004130000',
+    'toDate': '202005130000',
     'bucket': 'day'
 }
 
@@ -52,19 +53,34 @@ tweet_data = search_resp.json()
 
 # Save results to json file
 path = os.path.join(os.path.dirname(__file__),'twitter_request_tsla.json')
-with open(path, 'a') as g:
+with open(path, 'w') as g:
 	json.dump(tweet_data,g, indent=4)
 
 
-# Extract only relevant items for CSV
+# Extract only relevant items for CSV using request
+'''
 relevant_data = []
 
 for x in tweet_data['results']:
     relevant_data.append({'time_period':x['timePeriod'], 'count':x['count']})
+'''
 
-path = os.path.join(os.path.dirname(__file__),'twitter_request_tsla.json')
-with open(path, 'w') as g:
-	json.dump(tweet_data,g, indent=4)
+# Extract only relevant items from JSON (so we don't keep making requests)
+relevant_data = []
+
+with open('twitter_request_tsla.json', 'r') as f:
+    data = json.load(f)
+    for x in data['results']:
+        relevant_data.append({'time_period':x['timePeriod'][0:8], 'count':x['count']})
+
+
+# Convert string to datetime object
+for x in relevant_data:
+    x['time_period']=datetime.strptime(x['time_period'],'%Y%m%d')
+
+# Reformat date
+for x in relevant_data:
+    x['time_period']=datetime.strftime(x['time_period'],'%Y-%m-%d')
 
 
 # Save relevant_data list to CSV
@@ -84,3 +100,4 @@ for i in relevant_data:
 twitter_request.close()
 
 
+>>>>>>>
