@@ -47,7 +47,7 @@ print(slice_2)
 
 #Chapter 4 Lexical attributes
 
-file = open('headlines/headlines2.csv', 'r')
+file = open('NewsAPI/headlines2.csv', 'r')
 new_doc = nlp(file.read())
 
 for token in new_doc:
@@ -66,7 +66,8 @@ nlp3 = spacy.load("/Users/rich/opt/anaconda3/lib/python3.7/site-packages/en_core
 
 doc3 = nlp3(f)
 
-print(doc3.text, doc3.pos_)
+# print(doc3.text, doc3.pos_)
+print(doc3.text)
 
 
 # print(doc3.text)
@@ -74,11 +75,17 @@ print(doc3.text, doc3.pos_)
 #Chapter 8 Predicting linguistic annotations
 
 # Iterate over the predicted entities
-for t in doc3:
-    # Print the entity text and its label
-    token_text = doc3.text
-    token_doc = doc3.doc
-    token_pos = doc3.pos
-    print(f"{token_text}:<12{token_doc}:<10{token_pos}:<10")
+# for t in doc3:
+#     # Print the entity text and its label
+#     token_text = doc3.text
+#     token_doc = doc3.doc
+#     token_pos = doc3.pos
+#     print(f"{token_text}:<12")
+    # print(f"{token_doc}:<10)")
+    # print(f"{token_pos}:<10")
 
+
+for ent in doc3.ents:
+    # Print the entity text and its label
+    print(ent.text, ent.label_)
 
