@@ -57,12 +57,28 @@ for token in new_doc:
             print("Percentage found:", token.text)
 
 
-            
+
+nlp3 = spacy.load("/Users/rich/opt/anaconda3/lib/python3.7/site-packages/en_core_web_sm/en_core_web_sm-2.2.0")
+
             # Chapter 7 Loading Models
 
-        nlp3 = spacy.load("en_core_web_sm")
+# nlp3 = spacy.load("en_core_web_sm")
 
-        doc3 = nlp3(f)
+doc3 = nlp3(f)
 
-        print(doc3.text, doc3.pos_)
+print(doc3.text, doc3.pos_)
+
+
+# print(doc3.text)
+
+#Chapter 8 Predicting linguistic annotations
+
+# Iterate over the predicted entities
+for t in doc3:
+    # Print the entity text and its label
+    token_text = doc3.text
+    token_doc = doc3.doc
+    token_pos = doc3.pos
+    print(f"{token_text}:<12{token_doc}:<10{token_pos}:<10")
+
 
