@@ -17,9 +17,6 @@ file = open('NewsAPI/headlines2.csv', 'r')
 f = str(file.readlines()[1:])
 new_doc = nlp(f)
 
-doc = nlp("I like tree kangaroos and narwhals.")
-doc2 = nlp2("Liebe Grüße!")
-
 print(new_doc.text)
 # print(doc2.text)
 
@@ -66,12 +63,10 @@ nlp3 = spacy.load("/Users/rich/opt/anaconda3/lib/python3.7/site-packages/en_core
 
 doc3 = nlp3(f)
 
-<<<<<<< HEAD
 # print(doc3.text, doc3.pos_)
 print(doc3.text)
-=======
+
 print(doc3.text, doc3.pos_)
->>>>>>> ed8b13e4b1289b4532e0a21d683f875a0a55827e
 
 
 # print(doc3.text)
@@ -79,7 +74,6 @@ print(doc3.text, doc3.pos_)
 #Chapter 8 Predicting linguistic annotations
 
 # Iterate over the predicted entities
-<<<<<<< HEAD
 # for t in doc3:
 #     # Print the entity text and its label
 #     token_text = doc3.text
@@ -93,7 +87,7 @@ print(doc3.text, doc3.pos_)
 for ent in doc3.ents:
     # Print the entity text and its label
     print(ent.text, ent.label_)
-=======
+
 for t in doc3:
     # Print the entity text and its label
     token_text = doc3.text
@@ -101,5 +95,4 @@ for t in doc3:
     token_pos = doc3.pos
     print(f"{token_text}:<12{token_doc}:<10{token_pos}:<10")
 
->>>>>>> ed8b13e4b1289b4532e0a21d683f875a0a55827e
 
