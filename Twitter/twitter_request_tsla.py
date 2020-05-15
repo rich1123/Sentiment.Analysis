@@ -39,8 +39,8 @@ search_headers = {
 
 search_params = {
     'query': 'Tesla',
-    'fromDate': '202004130000',
-    'toDate': '202005130000',
+    'fromDate': '202004140000',
+    'toDate': '202005140000',
     'bucket': 'day'
 }
 
