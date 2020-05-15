@@ -8,7 +8,7 @@ import time
 
 
 # Init
-newsapi = NewsApiClient(api_key='Enter your key here')
+newsapi = NewsApiClient(api_key='Enter Key Here')
 
 
 # Delete CSV to overwrite
@@ -23,8 +23,8 @@ with open('headlines.csv','w',newline='') as f:
 
 
 # Obtain article count per day for date range 
-start = '2020-04-12'
-end = '2020-05-12'
+start = '2020-04-14'
+end = '2020-05-14'
 
 start2 = date(int(start[0:4]), int(start[5:7]), int(start[8:10]))
 end2 = date(int(end[0:4]), int(end[5:7]), int(end[8:10]))
@@ -55,11 +55,9 @@ with open(path, 'r') as f, open(path2, 'w') as g:
 	reader = csv.reader(f)
 	next(reader) # Skip the header
 	writer = csv.writer(g)
-	writer.writerow(['date', 'source', 'headline', 'hd', 'he', 'hf', 'hg', 'hh']) # Write the header
+	writer.writerow(['date', 'source', 'headline']) # Write the header
 
 	for row in reader:
-		# Remove white spaces in each field and assign to vars
-		date, source, headline, hd, he, hf, hg, hh = [x.strip() for x in row]
-		writer.writerow([date, source, headline + ' ' + hd + ' ' + he + ' ' + hf + ' ' + hg + ' ' + hh])
-
+		date, source, *content = [x.strip() for x in row] # Remove white spaces in each field and assign to vars
+		writer.writerow([date, source, ' '.join(content)]) # Merge all cells after source
 

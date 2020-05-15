@@ -6,7 +6,7 @@ import csv
 
 
 # Init
-newsapi = NewsApiClient(api_key='XXXX')
+newsapi = NewsApiClient(api_key='Enter Key Here')
 
 
 # Delete CSV to overwrite
@@ -21,8 +21,8 @@ with open('news.csv','w',newline='') as f:
 
 
 # Obtain article count per day for date range 
-start = '2020-04-11'
-end = '2020-05-11'
+start = '2020-04-14'
+end = '2020-05-14'
 
 start2 = date(int(start[0:4]), int(start[5:7]), int(start[8:10]))
 end2 = date(int(end[0:4]), int(end[5:7]), int(end[8:10]))
@@ -41,3 +41,4 @@ while i <= end2:
 		f.write("{},{}\n".format(i.strftime('%Y-%m-%d'), all_articles["totalResults"]))
 
 	i += day
+
