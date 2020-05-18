@@ -8,7 +8,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
 # Load headlines2.csv
-path2 = os.path.join(os.path.abspath('headlines2.csv'))
+path2 = os.path.join(os.path.dirname(__file__),'headlines2.csv')
 df_headlines = pd.read_csv(path2)
 
 # Create empty column to store sentiment scores per article
@@ -62,10 +62,9 @@ df_headlines2.drop(['source', 'headline'], axis=1, inplace=True)
 # Group headlines by date and calculate average score
 df_group = df_headlines2.groupby('date').mean()
 df_group.rename(columns = {'score': 'daily_score'}, inplace = True)
-df_group
 
 
 # Save df_group to csv
-df_group.to_csv('sentiment_score.csv')
+df_group.to_csv(os.path.join(os.path.dirname(__file__),'sentiment.csv'))
 
 
