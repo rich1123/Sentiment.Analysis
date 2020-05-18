@@ -38,6 +38,7 @@ var_list = Variable.get("yfinance_api", deserialize_json=True)
 var_news_api_cmd = var_list["var_news_api_cmd"]
 var_headlines_api_cmd = var_list["var_headlines_api_cmd"]
 var_twitter_api_cmd = var_list["var_twitter_api_cmd"]
+var_csv_mysql_cmd = var_list["var_csv_mysql_cmd"]
 var_ticker = var_list["var_ticker"]
 var_input_notebook_yfinance = var_list["var_input_notebook_yfinance"]
 var_output_notebook_yfinance = var_list["var_output_notebook_yfinance"]
@@ -149,7 +150,7 @@ t3 = BashOperator(
         bash_command=var_twitter_api_cmd,
         dag=dag,
     )
-#
+
 t4 = PythonOperator(
         task_id='run_yfinance_api',
         provide_context=False,
@@ -171,12 +172,11 @@ t6 = PythonOperator(
         dag=dag,
 )
 
-t7 = PythonOperator(
-        task_id='inserti_nto_SQL_db',
-        provide_context=False,
-        python_callable=insert_sql,
+t7 = BashOperator(
+        task_id='insert_into_sqldb',
+        bash_command=var_csv_mysql_cmd,
         dag=dag,
-)
+    )
 
 t8 = PythonOperator(
         task_id='visualize_report',
