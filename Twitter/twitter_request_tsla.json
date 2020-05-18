@@ -1,130 +1,134 @@
 {
     "results": [
         {
-            "timePeriod": "202004140000",
-            "count": 21542
-        },
-        {
             "timePeriod": "202004150000",
             "count": 21936
         },
         {
             "timePeriod": "202004160000",
-            "count": 43512
+            "count": 43445
         },
         {
             "timePeriod": "202004170000",
-            "count": 32341
+            "count": 32305
         },
         {
             "timePeriod": "202004180000",
-            "count": 25355
+            "count": 25330
         },
         {
             "timePeriod": "202004190000",
-            "count": 22369
+            "count": 22363
         },
         {
             "timePeriod": "202004200000",
-            "count": 23860
+            "count": 23845
         },
         {
             "timePeriod": "202004210000",
-            "count": 23994
+            "count": 23975
         },
         {
             "timePeriod": "202004220000",
-            "count": 46951
+            "count": 46900
         },
         {
             "timePeriod": "202004230000",
-            "count": 25452
+            "count": 25420
         },
         {
             "timePeriod": "202004240000",
-            "count": 28841
+            "count": 28818
         },
         {
             "timePeriod": "202004250000",
-            "count": 26533
+            "count": 26497
         },
         {
             "timePeriod": "202004260000",
-            "count": 24610
+            "count": 24605
         },
         {
             "timePeriod": "202004270000",
-            "count": 20688
+            "count": 20666
         },
         {
             "timePeriod": "202004280000",
-            "count": 23249
+            "count": 23214
         },
         {
             "timePeriod": "202004290000",
-            "count": 43354
+            "count": 43266
         },
         {
             "timePeriod": "202004300000",
-            "count": 60430
+            "count": 60311
         },
         {
             "timePeriod": "202005010000",
-            "count": 72723
+            "count": 72592
         },
         {
             "timePeriod": "202005020000",
-            "count": 52157
+            "count": 52091
         },
         {
             "timePeriod": "202005030000",
-            "count": 29720
+            "count": 29673
         },
         {
             "timePeriod": "202005040000",
-            "count": 24404
+            "count": 24388
         },
         {
             "timePeriod": "202005050000",
-            "count": 36281
+            "count": 36233
         },
         {
             "timePeriod": "202005060000",
-            "count": 34530
+            "count": 34487
         },
         {
             "timePeriod": "202005070000",
-            "count": 30838
+            "count": 31181
         },
         {
             "timePeriod": "202005080000",
-            "count": 26366
+            "count": 26637
         },
         {
             "timePeriod": "202005090000",
-            "count": 69264
+            "count": 69630
         },
         {
             "timePeriod": "202005100000",
-            "count": 114356
+            "count": 114132
         },
         {
             "timePeriod": "202005110000",
-            "count": 142525
+            "count": 141816
         },
         {
             "timePeriod": "202005120000",
-            "count": 192425
+            "count": 191464
         },
         {
             "timePeriod": "202005130000",
-            "count": 104097
+            "count": 103574
+        },
+        {
+            "timePeriod": "202005140000",
+            "count": 49534
+        },
+        {
+            "timePeriod": "202005150000",
+            "count": 35062
         }
     ],
-    "totalCount": 1444703,
+    "totalCount": 1505390,
     "requestParameters": {
         "bucket": "day",
-        "fromDate": "202004140000",
-        "toDate": "202005140000"
+        "fromDate": "202004150000",
+        "toDate": "202005160000"
     }
 }
