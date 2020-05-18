@@ -8,21 +8,22 @@ import csv
 # Init
 newsapi = NewsApiClient(api_key='Enter Key Here')
 
+path = os.path.join(os.path.dirname(__file__), 'news.csv')
 
 # Delete CSV to overwrite
-if os.path.exists('news.csv'):
-	os.remove('news.csv')
+if os.path.exists(path):
+	os.remove(path)
 
 
 # Create new CSV with headers
-with open('news.csv','w',newline='') as f:
+with open(path,'w',newline='') as f:
     w = csv.writer(f)
     w.writerow(['date','total_articles'])
 
 
 # Obtain article count per day for date range 
-start = '2020-04-14'
-end = '2020-05-14'
+start = '2020-04-18'
+end = '2020-05-18'
 
 start2 = date(int(start[0:4]), int(start[5:7]), int(start[8:10]))
 end2 = date(int(end[0:4]), int(end[5:7]), int(end[8:10]))
@@ -37,7 +38,7 @@ while i <= end2:
 	                                      language='en',
 	                                      )
 
-	with open('news.csv', 'a') as f:
+	with open(path, 'a') as f:
 		f.write("{},{}\n".format(i.strftime('%Y-%m-%d'), all_articles["totalResults"]))
 
 	i += day

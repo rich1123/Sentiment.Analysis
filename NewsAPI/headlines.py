@@ -10,21 +10,22 @@ import time
 # Init
 newsapi = NewsApiClient(api_key='Enter Key Here')
 
+path = os.path.join(os.path.dirname(__file__),'headlines.csv')
 
 # Delete CSV to overwrite
-if os.path.exists('headlines.csv'):
-	os.remove('headlines.csv')
+if os.path.exists(path):
+	os.remove(path)
 
 
 # Create new CSV with headers
-with open('headlines.csv','w',newline='') as f:
+with open(path,'w',newline='') as f:
     w = csv.writer(f)
     w.writerow(['date', 'source', 'headline'])
 
 
 # Obtain article count per day for date range 
-start = '2020-04-14'
-end = '2020-05-14'
+start = '2020-04-18'
+end = '2020-05-18'
 
 start2 = date(int(start[0:4]), int(start[5:7]), int(start[8:10]))
 end2 = date(int(end[0:4]), int(end[5:7]), int(end[8:10]))
@@ -40,7 +41,7 @@ while i <= end2:
 	                                      language='en',
 	                                      )
 
-	with open('headlines.csv', 'a') as f:
+	with open(path, 'a') as f:
 		for x in all_articles['articles']:
 			f.write("{},{},{}\n".format(i.strftime('%Y-%m-%d'), x['source']['name'], x['title']))
 
@@ -48,7 +49,7 @@ while i <= end2:
 
 
 # Concatenate columns
-path = os.path.join(os.path.dirname(__file__),'headlines.csv')
+# path = os.path.join(os.path.dirname(__file__),'headlines.csv')
 path2 = os.path.join(os.path.dirname(__file__),'headlines2.csv')
 
 with open(path, 'r') as f, open(path2, 'w') as g:
