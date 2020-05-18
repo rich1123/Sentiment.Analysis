@@ -12,9 +12,9 @@ tsla.info
 
 
 # create pandas df
-df_pandas = tsla.history(start="2020-04-14", end="2020-05-15")
+df_pandas = tsla.history(start="2020-04-13", end="2020-05-16")
 df_pandas = df_pandas.drop(['Dividends', 'Stock Splits'], axis=1)
-df_pandas = df_pandas.reset_index( )
+#df_pandas = df_pandas.reset_index( )
 
 
 # Create new columns for change in prices
@@ -27,4 +27,4 @@ df_pandas = df_pandas.fillna(0)
 
 
 # Export data into CSV
-df_pandas.to_csv('tsla_yfinance.csv')
+df_pandas.to_csv('/Users/asamra/dev/Amit_Final_Project/yfinance/tsla_yfinance.csv')
