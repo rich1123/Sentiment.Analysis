@@ -1,0 +1,19 @@
+{
+	"yfinance_api":
+	{
+		"var_news_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/main_folder/Sentiment.Analysis-main/NewsAPI/news.py",
+		"var_headlines_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/main_folder/Sentiment.Analysis-main/NewsAPI/headlines.py",
+		"var_twitter_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/main_folder/Sentiment.Analysis-main/Twitter/twitter_request_tsla.py",
+		"var_ticker": "TSLA",
+		"var_input_notebook_headlines": "/Users/psehgal/dev/Sentiment.Analysis/main_folder/Sentiment.Analysis-main/NewsAPI/headlines.ipynb",
+		"var_output_notebook_headlines": "/Users/psehgal/dev/Sentiment.Analysis/main_folder/Sentiment.Analysis-main/NewsAPI/headlines_output.ipynb",
+		"var_input_notebook_yfinance": "/Users/psehgal/dev/Sentiment.Analysis/yfinance_api_ps.ipynb",
+		"var_output_notebook_yfinance": "/Users/psehgal/dev/Sentiment.Analysis/yfinance_api_ps_output.ipynb",
+		"var_input_notebook_correlation": "/Users/psehgal/dev/Sentiment.Analysis/correlation_api_ps_input.ipynb",
+		"var_output_notebook_correlation": "/Users/psehgal/dev/Sentiment.Analysis/correlation_api_ps_output.ipynb",
+		"var_input_notebook_visualization": "/Users/psehgal/dev/Sentiment.Analysis/visualization_api_ps_input.ipynb",
+		"var_output_notebook_visualization": "/Users/psehgal/dev/Sentiment.Analysis/visualization_api_ps_output.ipynb"
+
+	}
+
+}
