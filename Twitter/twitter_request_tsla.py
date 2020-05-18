@@ -7,8 +7,8 @@ from datetime import datetime, date
 
 
 # Load keys
-client_key = 'Enter Key Here'
-client_secret = 'Enter Key Here'
+client_key = '7HAFUMP1cse0Kc6OCxb0tUybD'
+client_secret = 'ZoPOHql3dsWlaiSPcv5rTaXdK4t3cnZrM3ELiJm27gkNZBzZlW'
 
 key_secret = '{}:{}'.format(client_key, client_secret).encode('ascii')
 b64_encoded_key = base64.b64encode(key_secret)
