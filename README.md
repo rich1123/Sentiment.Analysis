@@ -16,17 +16,17 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 # Amit Samra
   A curious and driven personality interested in exploring the intersection of Big Data and Finance, I've an educational background in Economics & Accounting/Finance with professional experience in the financial sector.
   
-  Connect with me: https://www.linkedin.com/in/amitsamra/
+  [Connect with me] (https://www.linkedin.com/in/amitsamra/)
 
 ![](images/p_sehgal.png) 
 # Preeti Sehgal
   Masters in Physics and a Former undergrad Physics teacher. I have a passion for collecting and analyzing data to find meaningful trends. I'm a team player with strong analytical skills.
 
-  Connect with me: https://www.linkedin.com/in/preetisehgal18/
+  [Connect with me] (https://www.linkedin.com/in/preetisehgal18/)
 
 ![](images/r_maiale.jpg) 
 # Rich Maiale
   My background is in management and sales.  I've long been an advocate of solving problems using empirical solutions, employing spreadsheets, CRMs, and costing formulas to improve my working environment.
 
-  Connect with me: https://www.linkedin.com/in/rich-maiale/ 
+  [Connect with me] (https://www.linkedin.com/in/rich-maiale/) 
 
