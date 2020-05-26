@@ -6,7 +6,7 @@ import csv
 
 
 # Init
-newsapi = NewsApiClient(api_key='Enter Key Here')
+newsapi = NewsApiClient(api_key='73b3af7dca874a02a708ccf34ede5ea7')
 
 path = os.path.join(os.path.dirname(__file__), 'news.csv')
 
