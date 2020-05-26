@@ -7,8 +7,8 @@ from datetime import datetime, date
 
 
 # Load keys
-client_key = 'Enter Key Here'
-client_secret = 'Enter Key Here'
+client_key = '7HAFUMP1cse0Kc6OCxb0tUybD'
+client_secret = 'ZoPOHql3dsWlaiSPcv5rTaXdK4t3cnZrM3ELiJm27gkNZBzZlW'
 
 key_secret = '{}:{}'.format(client_key, client_secret).encode('ascii')
 b64_encoded_key = base64.b64encode(key_secret)
@@ -39,8 +39,8 @@ search_headers = {
 
 search_params = {
     'query': 'Tesla',
-    'fromDate': '202004130000',
-    'toDate': '202005130000',
+    'fromDate': '202004150000',
+    'toDate': '202005160000',
     'bucket': 'day'
 }
 
@@ -68,7 +68,7 @@ for x in tweet_data['results']:
 # Extract only relevant items from JSON (so we don't keep making requests)
 relevant_data = []
 
-with open('twitter_request_tsla.json', 'r') as f:
+with open(path, 'r') as f:
     data = json.load(f)
     for x in data['results']:
         relevant_data.append({'time_period':x['timePeriod'][0:8], 'count':x['count']})

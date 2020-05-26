@@ -1,131 +1,135 @@
 {
     "results": [
         {
-            "timePeriod": "202004130000",
-            "count": 16859
-        },
-        {
-            "timePeriod": "202004140000",
-            "count": 21557
-        },
-        {
             "timePeriod": "202004150000",
-            "count": 21948
+            "count": 21933
         },
         {
             "timePeriod": "202004160000",
-            "count": 43523
+            "count": 43437
         },
         {
             "timePeriod": "202004170000",
-            "count": 32358
+            "count": 32306
         },
         {
             "timePeriod": "202004180000",
-            "count": 25387
+            "count": 25327
         },
         {
             "timePeriod": "202004190000",
-            "count": 22380
+            "count": 22364
         },
         {
             "timePeriod": "202004200000",
-            "count": 23871
+            "count": 23851
         },
         {
             "timePeriod": "202004210000",
-            "count": 24016
+            "count": 23978
         },
         {
             "timePeriod": "202004220000",
-            "count": 46983
+            "count": 46903
         },
         {
             "timePeriod": "202004230000",
-            "count": 25475
+            "count": 25416
         },
         {
             "timePeriod": "202004240000",
-            "count": 28862
+            "count": 28814
         },
         {
             "timePeriod": "202004250000",
-            "count": 26564
+            "count": 26494
         },
         {
             "timePeriod": "202004260000",
-            "count": 24635
+            "count": 24604
         },
         {
             "timePeriod": "202004270000",
-            "count": 20719
+            "count": 20656
         },
         {
             "timePeriod": "202004280000",
-            "count": 23290
+            "count": 23209
         },
         {
             "timePeriod": "202004290000",
-            "count": 43388
+            "count": 43267
         },
         {
             "timePeriod": "202004300000",
-            "count": 60455
+            "count": 60297
         },
         {
             "timePeriod": "202005010000",
-            "count": 72756
+            "count": 72589
         },
         {
             "timePeriod": "202005020000",
-            "count": 52183
+            "count": 52088
         },
         {
             "timePeriod": "202005030000",
-            "count": 29745
+            "count": 29661
         },
         {
             "timePeriod": "202005040000",
-            "count": 24454
+            "count": 24389
         },
         {
             "timePeriod": "202005050000",
-            "count": 36317
+            "count": 36225
         },
         {
             "timePeriod": "202005060000",
-            "count": 34303
+            "count": 34487
         },
         {
             "timePeriod": "202005070000",
-            "count": 30868
+            "count": 31180
         },
         {
             "timePeriod": "202005080000",
-            "count": 26406
+            "count": 26637
         },
         {
             "timePeriod": "202005090000",
-            "count": 69447
+            "count": 69615
         },
         {
             "timePeriod": "202005100000",
-            "count": 114676
+            "count": 114452
         },
         {
             "timePeriod": "202005110000",
-            "count": 142840
+            "count": 141738
         },
         {
             "timePeriod": "202005120000",
-            "count": 192922
+            "count": 191330
+        },
+        {
+            "timePeriod": "202005130000",
+            "count": 103512
+        },
+        {
+            "timePeriod": "202005140000",
+            "count": 49474
+        },
+        {
+            "timePeriod": "202005150000",
+            "count": 35029
         }
     ],
-    "totalCount": 1359187,
+    "totalCount": 1505262,
     "requestParameters": {
         "bucket": "day",
-        "fromDate": "202004130000",
-        "toDate": "202005130000"
+        "fromDate": "202004150000",
+        "toDate": "202005160000"
     }
 }{
     "error": {
