@@ -11,16 +11,16 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 ![](images/Sentiment_Analysis_Social_Media_Stock.png) 
 
 # APIs Used
-Twitter API
-News API
-Yfinance API
+*Twitter API
+*News API
+*Yfinance API
 
 # Frameworks/Platforms Used
-Airflow
-Spark
-Pandas
-NLTK
-Bokeh
+*Airflow
+*Spark
+*Pandas
+*NLTK
+*Bokeh
 
 ## About our group:
 
