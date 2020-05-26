@@ -26,6 +26,7 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 
 ![](images/r_maiale.jpg) 
 # Rich Maiale
-  
-  
+  My background is in management and sales.  I've long been an advocate of solving problems using empirical solutions, employing spreadsheets, CRMs, and costing formulas to improve my working environment.
+
+  Connect with me: https://www.linkedin.com/in/rich-maiale/ 
 
