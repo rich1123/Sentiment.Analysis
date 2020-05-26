@@ -11,27 +11,27 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 ![](images/Sentiment_Analysis_Social_Media_Stock.png) 
 
 # APIs Used
-*Twitter API
-*News API
-*Yfinance API
+* Twitter API
+* News API
+* Yfinance API
 
 # Frameworks/Platforms Used
-*Airflow
-*Spark
-*Pandas
-*NLTK
-*Bokeh
+* Airflow
+* Spark
+* Pandas
+* NLTK
+* Bokeh
 
-## About our group:
+# About our group:
 
-# Amit Samra
+## Amit Samra
   A curious and driven personality interested in exploring the intersection of Big Data and Finance. I have an educational background in Economics & Finance with professional experience in financial services.
   [Connect with me](https://www.linkedin.com/in/amitsamra/)
 
 ![](images/p_sehgal.png) 
 
 
-# Preeti Sehgal
+## Preeti Sehgal
   Masters in Physics and a Former undergrad Physics teacher. I have a passion for collecting and analyzing data to find meaningful trends. I'm a team player with strong analytical skills.
 
   [Connect with me](https://www.linkedin.com/in/preetisehgal18/)
@@ -39,7 +39,7 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 ![](images/r_maiale.jpg) 
 
 
-# Rich Maiale
+## Rich Maiale
   My background is in management and sales.  I've long been an advocate of solving problems using empirical solutions, employing spreadsheets, CRMs, and costing formulas to improve my working environment.
 
   [Connect with me](https://www.linkedin.com/in/rich-maiale/) 
