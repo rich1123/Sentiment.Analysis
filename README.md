@@ -26,7 +26,7 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 
 ## Amit Samra
   A curious and driven personality interested in exploring the intersection of Big Data and Finance. I have an educational background in Economics & Finance with professional experience in financial services.
-  [LinkedIn](https://www.linkedin.com/in/amitsamra/)
+  [LinkedIn](https://www.linkedin.com/in/amitsamra/). return
   [Github](https://github.com/AmitSamra)
 
 ![](images/p_sehgal.png) 
@@ -35,7 +35,7 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 ## Preeti Sehgal
   Masters in Physics and a Former undergrad Physics teacher. I have a passion for collecting and analyzing data to find meaningful trends. I'm a team player with strong analytical skills.
 
-  [LinkedIn](https://www.linkedin.com/in/preetisehgal18/)
+  [LinkedIn](https://www.linkedin.com/in/preetisehgal18/). return
   [Github](https://github.com/Preeti0118)
 
 ![](images/r_maiale.jpg) 
@@ -44,6 +44,6 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 ## Rich Maiale
   My background is in management and sales.  I've long been an advocate of solving problems using empirical solutions, employing spreadsheets, CRMs, and costing formulas to improve my working environment.
 
-  [LinkedIn](https://www.linkedin.com/in/rich-maiale/) 
+  [LinkedIn](https://www.linkedin.com/in/rich-maiale/). return
   [Github](https://github.com/rich1123)
 
