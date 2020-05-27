@@ -1,0 +1,19 @@
+{
+	"sentiment_variables_ps":
+	{
+		"var_news_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/preeti_final/news_ps.py",
+		"var_headlines_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/preeti_final/headlines_ps.py",
+		"var_twitter_api_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/preeti_final/twitter_request_tsla_ps.py",
+		"var_sentiment_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/preeti_final/sentiment_ps.py",
+		"var_csv_mysql_cmd": "python /Users/psehgal/dev/Sentiment.Analysis/preeti_final/csv_mysql_ps.py",
+		"var_ticker": "TSLA",
+		"var_input_notebook_yfinance": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/yfinance_api_ps.ipynb",
+		"var_output_notebook_yfinance": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/yfinance_api_ps_output.ipynb",
+		"var_input_notebook_correlation": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/final_project2_ps.ipynb",
+		"var_output_notebook_correlation": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/final_project_ps_output.ipynb",
+		"var_input_notebook_visualization": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/visuals_ps.ipynb",
+		"var_output_notebook_visualization": "/Users/psehgal/dev/Sentiment.Analysis/preeti_final/visuals_ps_output.ipynb"
+
+	}
+
+}
