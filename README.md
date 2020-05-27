@@ -25,7 +25,7 @@ We will connect Jupyter to SQL to load the data. We will then use bokeh to plot 
 # About our group:
 
 ## Amit Samra
-  A curious and driven personality interested in exploring the intersection of Big Data and Finance. I have an educational background in Economics & Finance with professional experience in financial services.
+  A curious and driven personality interested in exploring the intersection of Big Data and Finance. I have an educational background in Economics & Finance with professional experience in financial services.<br />
   [LinkedIn](https://www.linkedin.com/in/amitsamra/)<br />
   [Github](https://github.com/AmitSamra)
 
